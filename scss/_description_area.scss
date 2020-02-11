@@ -1,0 +1,91 @@
+.description_area{
+    padding-top: 60px;
+    padding-bottom: 110px;
+@media #{$mobile_device} {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+@media #{$tablet_device} {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+    .form-contact textarea {
+        border-radius: 0px;
+        height: 116px !important;
+    }
+    .single_des{
+        margin-bottom: 40px;
+        h3{
+            font-size:28px ;
+            font-weight: 500;
+            color: #001D38;
+            font-family: $font2;
+            margin-bottom: 25px;
+        }
+        p{
+            font-family: $font2;
+            font-size: 16px;
+            color: #4D4D4D;
+            line-height: 28px;
+        }
+        .form-contact .form-control {
+            border: 1px solid #C7C7C7;
+            border-radius: 0px;
+            height: 48px;
+            padding-left: 18px;
+            font-size: 13px;
+            background: transparent;
+            border-radius: 5px;
+            height: 50px;
+            font-family: $font2;
+        }
+        button{
+            width: 100%;
+            text-align: center;
+        }
+    }
+    .map_wrap{
+        position: relative;
+        .food_details{
+            background:#fff;
+            padding: 20px;
+            position: absolute;
+            right: 30px;
+            z-index: 99;
+            top: 50%;
+            @include transform(translateY(-50%));
+            border-radius: 10px;
+            max-width: 286px;
+            h4{
+                font-size: 18px;
+                color: #F91842;
+                font-weight: 600;
+                font-family: $font2;
+                margin-bottom: 9px;
+            }
+            p{
+                font-size: 16px;
+                font-weight: 400;
+                color: #727272;
+                font-family: $font2;
+                margin-bottom: 4px;
+            }
+            ul{
+                li{
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #727272;
+                    font-family: $font2;
+                    line-height: 24px;
+                    i{
+                        font-size: 14px;
+                        color: #FF8DA2;
+                        padding-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
